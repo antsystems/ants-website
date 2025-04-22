@@ -1,0 +1,82 @@
+/* Feature Icons */
+.feature-icon {
+    margin: 0 auto 20px;
+    max-width: 100%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #ff7a00, #ff5757);
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(255, 122, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-icon i {
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.feature-card:hover .feature-icon {
+    transform: scale(1.1);
+    box-shadow: 0 15px 30px rgba(255, 122, 0, 0.3);
+}
+
+/* Contact Method Icons */
+.method-icon {
+    margin: 0 auto 15px;
+    max-width: 100%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #ff7a00, #ff5757);
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(255, 122, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.method-icon i {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.contact-method:hover .method-icon {
+    transform: scale(1.1);
+    box-shadow: 0 15px 30px rgba(255, 122, 0, 0.3);
+}
+
+/* Social Media Icons */
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to right, #ff7a00, #ff5757);
+    border-radius: 50%;
+    color: #ffffff !important;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(255, 122, 0, 0.2);
+}
+
+/* Team Member Icons */
+.member-image.placeholder {
+    background: linear-gradient(45deg, #f1f1f1, #e0e0e0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.member-image.placeholder i {
+    font-size: 64px;
+    color: #bbbbbb;
+} 
